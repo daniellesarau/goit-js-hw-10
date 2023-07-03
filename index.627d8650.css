@@ -1,0 +1,2 @@
+body{color:#000;text-align:center;letter-spacing:.6px;background-color:#deb887}.cat_image{width:800px;height:auto;padding-top:40px}.loader{box-sizing:border-box;width:48px;height:48px;animation:spin 1s linear infinite;position:relative;left:700px}.loader:after,.loader:before{content:"";width:24px;height:24px;transform-origin:0 100%;background:red;border-radius:50%;animation:spin 1s linear infinite;position:absolute}.loader:before{transform-origin:0;background:#000}@keyframes spin{to{transform:rotate(360deg)}}
+/*# sourceMappingURL=index.627d8650.css.map */
