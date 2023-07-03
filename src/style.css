@@ -1,0 +1,40 @@
+body {
+  background-color: burlywood;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
+.cat_image {
+  width: 800px;
+  height: auto;
+  padding-top: 40px;
+}
+
+.loader {
+  box-sizing: border-box;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+  left: 700px;
+}
+.loader:after,
+.loader:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-radius: 50%;
+  background: red;
+  animation: spin 1s linear infinite;
+  transform-origin: 0px 100%;
+}
+.loader:before {
+  transform-origin: 0 50%;
+  background: black;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
